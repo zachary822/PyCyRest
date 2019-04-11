@@ -13,9 +13,12 @@ client = pycyrest.CyRest()
 
 print(client.operations)  # get a list of all possible operations
 
-client.getStylesNames()  # Get a list of currently available styles
+client.getStylesNames()  # Call operation as attribute.
 
+help(client.getStylesNames)  # See description and arguments for an operation
 ```
+
+To get more information about each operation use the python `help` function.
 
 ## Installation
 
