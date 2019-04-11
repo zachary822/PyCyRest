@@ -16,6 +16,7 @@ setup(
     long_description_content_type='text/markdown',
     author="Zachary Juang",
     author_email="zacharyjuang@gmail.com",
+    url="https://github.com/zachary822/PyCyRest",
     classifiers=[
         'License :: OSI Approved :: MIT License',
         'Programming Language :: Python :: 3.7',
